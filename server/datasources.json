@@ -1,0 +1,15 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "prutecnica": {
+    "host": "localhost",
+    "port": 3306,
+    "database": "prutecnica",
+    "password": "",
+    "name": "prutecnica",
+    "user": "root",
+    "connector": "mysql"
+  }
+}

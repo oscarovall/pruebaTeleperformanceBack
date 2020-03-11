@@ -1,0 +1,47 @@
+{
+  "name": "extra",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "documento": {
+      "type": "string",
+      "required": true
+    },
+    "nombres": {
+      "type": "string",
+      "required": true
+    },
+    "apellidos": {
+      "type": "string",
+      "required": true
+    },
+    "fechaInicio": {
+      "type": "date"
+    },
+    "fechaFin": {
+      "type": "date"
+    },
+    "inicioTurno": {
+      "type": "date"
+    },
+    "finTurno": {
+      "type": "date"
+    },
+    "inicioHoraExtra": {
+      "type": "date"
+    },
+    "finHoraExtra": {
+      "type": "date"
+    },
+    "motivoExtra": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
